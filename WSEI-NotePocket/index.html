@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <form >
+        <fieldset>
+        
+        <!-- Form Name -->
+        <legend>WSEI-NotePocket</legend>
+        
+        <!-- Text input-->
+        <div>
+          <label for="title">Tytuł</label>  
+         <div>
+          <input id="title" name="title" type="text">
+            </div>
+          </div>
+        </div>
+        
+        <!-- Textarea -->
+        <div >
+          <label for="contentInput">Treść notatki</label>
+          <div >                     
+            <textarea id="contentInput" name="contentInput"></textarea>
+          </div>
+        </div>
+
+        <div>
+            <label for="color">Kolor</label>
+            <div>
+                <input type="color" name="color" id="color">
+            </div>
+        </div>
+        
+        <!-- Button -->
+        <div >
+          <label for="singlebutton"></label>
+          <div><br> 
+            <input type="submit" value="Dodaj notatkę" onclick="addNote()" name="singlebutton" id="singlebutton">   
+          </div>
+        </div>
+        
+        </fieldset>
+        </form>
+          
+
+    <div id="content">
+        
+    </div>
+
+
+<script src="Note.js"></script> 
+<script src="Storage.js"></script>
+<script src="main.js"></script>     
+</body>
+</html>

@@ -1,0 +1,30 @@
+.note { 
+    background-color: grey;
+    width: 200px;
+    margin-bottom: 50px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+	-moz-box-shadow: 0 10px 6px -6px #777;
+	box-shadow: 0 10px 6px -6px #777;
+    float: left;
+	margin: 25px 0 0 25px;
+	display: block;
+	text-align: center;
+
+	
+	border-radius: 2px 2px 2px 2px;
+
+    
+}
+
+.noteDesc {
+    display:block;
+
+    word-wrap: break-word;
+
+    height: 100%;
+    text-align: left;
+    border-top: 1px solid black;
+    background-color: lightgray;
+    
+
+}

@@ -1,0 +1,44 @@
+body {
+    background-color: brown;
+    margin: 0 auto;
+
+    font-size: 60px;
+    text-align: center;
+}
+
+.piano {
+    height: 600px;
+    width: 100%px;
+    background-color: white;
+    
+    position: absolute;
+    
+}
+
+.piano .mainKeys {
+    height: 100%;
+    width: 130px;
+    border: 1px solid black;
+    float: left;
+}
+
+.piano .altKey {
+    height: 60%;
+    width: 80px;
+    background-color: #000;
+    color: white;
+
+    position: relative;
+    left: 90px;
+}
+
+#footer {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+p {
+    color: black;
+}
+
